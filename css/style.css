@@ -1,0 +1,76 @@
+.header{
+    background-color: #FFFAFA;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.navbar{
+    background-color: #DCDCDC;
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+
+.content{
+    background-color: #FFFAFA;
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.content2{
+    background-color: #FFFAFA;
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.produto1{
+    background-color: #B0C4DE;
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.produto2{
+    background-color: #B0C4DE;
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+
+
+.footer{
+    background-color: #363636;
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+
+.btn{
+    background-color: #FFE4B5;
+    width: 120px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+.container{
+    background-color: #B0C4DE;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+@media only screen and (max-width: 500px) {
+    .header, .navbar, .content, .content2, .produto1, .produto2, .footer {
+        width: 100%;
+    }
+    
+    .header img{
+        width: 50%;
+    }
+}
